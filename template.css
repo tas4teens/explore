@@ -38,7 +38,7 @@ body{
 
 #emergencyHeader{
     color: white;
-    background-color: #01470b;
+    background-color: #f08400;;
     margin-bottom: 0;
     display: flex;
     z-index: 2;
@@ -262,10 +262,27 @@ a{
     color: white;
 }
 
+#references{
+    margin-left: 15%;
+    font-size: 175%;
+    font-weight: bold;
+}
+
+.referenceLink{
+    color: green;
+}
+
+.referenceText{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    font-size: 120%;
+}
+
 @media only screen and (orientation: portrait){
     #emergencyMobileHeader{
         display: block;
-        background-color: #f56042;
+        background-color: #f08400;
         font-weight: bold;
         color: white;
         display: flex;
