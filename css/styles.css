@@ -174,6 +174,103 @@ ul{
     transition: 0.5s;
 }
 
+.titleLink{
+    font-weight: bold;
+    color: #008000;
+    font-size: 150%;
+    
+}
+
+
+.indivArticleHolder{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #e0e0e0;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 0.75%;
+    margin-top: 1.5%;
+   
+}
+
+.keyWordText{
+    font-size: 115%;
+    
+}
+
+.indivKeyWord{
+    text-decoration: none;
+    font-weight: lighter;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    padding-left: 0.4%;
+    padding-right: 0.4%;
+    background-color: #00b333;
+    color: white;
+    font-size: 90%;
+    margin-left: 1%;
+    margin-bottom: 0;
+    -webkit-user-select: none;
+}
+
+.description{
+    font-size: 127%;
+    margin-top: 2%;
+}
+
+#searchResults{
+    font-size: 145%;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#innerSearchResult1{
+    font-weight: bold;
+    color: green;
+}
+
+#innerSearchResult2{
+    font-style: italic;
+    color: green;
+}
+
+#resultsFlex{
+    margin-left: 15%;
+    display: flex;
+}
+
+#clearSearch, #explanation{
+    font-size: 125%;
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+    margin-top: -1%;
+    margin-bottom: 1.5%;
+    -webkit-user-select: none;
+}
+
+#clearSearch:hover{
+    cursor: pointer;
+}
+
+#explanation:hover{
+    cursor: pointer;
+}
+
+#explanation{
+    margin-left: 3%;
+}
+
+#explanationRevealed{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 110%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
 @media only screen and (orientation: portrait){
     #title{
         margin-top: 7%;

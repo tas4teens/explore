@@ -279,6 +279,11 @@ a{
     font-size: 120%;
 }
 
+#searchResultsHolder{
+    display: none;
+}
+
+
 @media only screen and (orientation: portrait){
     #emergencyMobileHeader{
         display: block;

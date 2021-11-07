@@ -81,6 +81,17 @@
         <input type="text" placeholder = 'Search this site...' id = 'searchBox'>
         <p id = 'searchButton'>Go ➤</p>
     </div>
+
+    <div id = 'searchResultsHolder'>
+        <p id = 'searchResults'>Showing <span id = 'innerSearchResult1'></span> results for <span id = 'innerSearchResult2'></span></p>
+        <div id = 'resultsFlex'>
+            <p id = 'clearSearch'>Clear Search</p>
+            <p id = 'explanation'>Why aren't some searches working?</p>
+        </div>
+        <p id = 'explanationRevealed'>This search function is based off matching keywords for each page on this website. Some pages may lack plural versions of certain keywords (i.e. a page might have "vitamin" stored as a keyword but not "vitamins." or it may lack different forms of certain keywords (i.e. a page might have "digestive" but not "digestion." Therefore, changing the form of the word may yield better search results.</p>
+        
+        <div id = 'innerSearchResultsHolder'></div>
+    </div>
     
     
     <div id = 'content'>
@@ -193,5 +204,6 @@
 </body>
 <script src = 'template.js'></script>
 <script src = 'js/app.js'></script>
+
 
 </html>
